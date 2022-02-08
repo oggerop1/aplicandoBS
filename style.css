@@ -1,3 +1,6 @@
+.container{
+    box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
+   }
 .col{
     text-align: center;
 }
@@ -16,7 +19,8 @@ h1{
 }
 
 
-#img2{
+/*estilos index*/
+#index-img2{
     
     width: 40%; 
     box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
@@ -36,11 +40,11 @@ h1{
     overflow: hidden;
    }
    
-   button:hover {
+   .btn:hover {
     color: black;
    }
    
-   button:after {
+    .btn:after {
     content: "";
     background: #0099ff;
     position: absolute;
@@ -58,10 +62,8 @@ h1{
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
    }
-
-   .container{
-    box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
-   }
+/*****************************/
+  
 
    /*footer*/
    .footer-cont{
@@ -81,3 +83,11 @@ h1{
    .footer-div-Copyright{
     background-color: rgba(0, 0, 0, 0.2);
    }
+
+   /*estilos vida.html*/
+   .vida-img1{
+       width: 30%;
+       align-content: center;
+   }
+
+   /*estilos*/
